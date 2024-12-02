@@ -1,1 +1,4 @@
- 
+ [build]
+  base = "development"  # Ensure this is the correct directory if you have it.
+  command = "npm run build"
+  publish = "dist"
