@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, ChevronUp, Building2, Calendar } from 'lucide-react';
+import { ChevronDown, Building2, Calendar } from 'lucide-react';
 import { FadeIn } from '@/components/animations/FadeIn';
 import { SITE_CONFIG } from '@/lib/constants';
 

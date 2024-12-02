@@ -13,7 +13,6 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
-import { SITE_CONFIG } from '@/lib/constants';
 
 const RESUME_DATA = {
   experience: [
