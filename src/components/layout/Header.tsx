@@ -3,8 +3,25 @@ import { Menu, X } from 'lucide-react';
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { SITE_CONFIG } from '@/lib/constants';
-import { Avatar } from '@/components/ui/avatar';
-import { AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+
+// New Laptop Person Icon Component
+const LaptopPersonIcon = ({ className }: { className?: string }) => (
+  <svg 
+    viewBox="0 0 24 24" 
+    className={className}
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <rect x="4" y="12" width="16" height="10" rx="2" />
+    <line x1="2" y1="22" x2="22" y2="22" />
+    <line x1="12" y1="12" x2="12" y2="6" />
+    <circle cx="12" cy="3" r="2" />
+    <path d="M8 18h8" />
+  </svg>
+);
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,10 +57,9 @@ export function Header() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <Avatar className="h-8 w-8">
-              <AvatarImage src="/avatar.jpg" alt={SITE_CONFIG.name} />
-              <AvatarFallback>JS</AvatarFallback>
-            </Avatar>
+            <div className="w-8 h-8 flex items-center justify-center text-blue-600 dark:text-yellow-500">
+              <LaptopPersonIcon className="w-6 h-6" />
+            </div>
             <span className="text-blue-600 dark:text-yellow-500 font-bold text-xl">
               {SITE_CONFIG.name}
             </span>

@@ -6,6 +6,7 @@ import { Skills } from '@/components/sections/Skills';
 import { Resume } from '@/components/sections/Resume';
 import { Contact } from '@/components/sections/Contact';
 import { ThemeToggle } from '@/components/ThemeToggle';
+import { Education } from '@/components/sections/Education';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Projects />
         <Resume />
         <Contact />
+        <Education />
       </main>
       <ThemeToggle />
     </div>

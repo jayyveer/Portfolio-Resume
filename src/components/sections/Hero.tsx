@@ -348,11 +348,6 @@ export function Hero() {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
-              <a href={SITE_CONFIG.social.twitter} target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="icon" className="hover:text-blue-600 dark:hover:text-yellow-500">
-                  <Twitter className="h-5 w-5" />
-                </Button>
-              </a>
             </div>
           </div>
         </div>

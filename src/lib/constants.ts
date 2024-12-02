@@ -8,8 +8,8 @@ export const SITE_CONFIG = {
     linkedin: 'linkedin.com/in/jayveer'
   },
   social: {
-    github: 'https://github.com',
-    linkedin: 'https://linkedin.com/in/jayveer',
+    github: 'https://github.com/jayyveer',
+    linkedin: 'https://linkedin.com/in/jayyveer',
     twitter: 'https://twitter.com'
   },
   bio: 'As an emerging Full Stack Developer with hands-on experience in the MERN stack, I have worked with both MySQL and MongoDB. While I specialize in crafting modern, user-focused web applications using Express, React, and Node.js, I am dedicated to continuous growth and skill enhancement in web development.',
